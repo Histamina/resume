@@ -1,4 +1,6 @@
 import React from 'react';
+import '../assets/leftColumn.scss';
+import profile from '../assets/profile.jpeg';
 import { myData } from '../data/myData';
 import SkillsItem from './SkillsItem';
 import LanguagesItem from './LanguagesItem';
@@ -10,10 +12,10 @@ const LeftColumn = () => {
         <>  
             <div className="left-wrapper">
                 <div className="imgdata-wrapper">
-                    {/* <img/> */}
+                    <img src={profile} alt="profile" width="264" height="325" />
                     <h3>{name}</h3>
-                    <h4>{title}</h4>
-                    <h4>{age}</h4>
+                    <p>{title}</p>
+                    <p>{age}</p>
                 </div>
                 <div className="contact-wrapper">
                     <p>{email}</p>
