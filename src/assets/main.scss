@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Proza+Libre:wght@500&display=swap');
+
+$main-font: 'Proza Libre', sans-serif;
+$text-font: 'Open Sans', sans-serif;
+
+body {
+    max-width: 21cm;
+    max-height: 29.7cm;
+    margin: auto;
+}
+
+.main-wrapper {
+    display: grid;
+    grid-template-areas: "leftCol" "rightCol";
+    grid-template-columns: 7cm 1fr;
+    
+    .left-wrapper {
+        grid-area: "leftCol";
+        display: flex;
+        flex-direction: column;
+        background-color: #424242;
+        height: 29.7cm;
+        color: white;
+    }
+    
+    .right-wrapper {
+        grid-area: "rightCol";
+        padding-left: 25px;
+        padding-right: 25px;
+        line-height: 1.3rem;
+        text-align: justify;
+        letter-spacing: .07rem;
+        padding-top: 40px;
+    }
+    
+}

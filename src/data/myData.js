@@ -74,8 +74,16 @@ export const myData = {
             "progress": 55
         },
         {
+            "title": "Git",
+            "progress": 60
+        },
+        {
             "title": "Mongo DB, Express JS, Node JS",
             "progress": 40
+        },
+        {
+            "title": "Firebase",
+            "progress": 35
         }
     ],
     "languages": [

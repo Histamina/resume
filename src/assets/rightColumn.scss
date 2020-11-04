@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Proza+Libre:wght@500&display=swap');
+
+$main-font: 'Proza Libre', sans-serif;
+$text-font: 'Open Sans', sans-serif;
+
+
+.right-wrapper {
+
+    .aboutme-wrapper {
+        h1 {
+            font-family: $main-font;
+            font-size: 1.4rem;
+        }
+        p {
+            font-family: $text-font;
+            font-weight: 500;
+        }
+    }
+
+    .experience-wrapper {
+        h2 {
+            font-family: $main-font;
+            font-size: 1.4rem;
+            margin-bottom: 0;
+        }
+        .companyPeriod-wrapper {
+            display: flex;
+            justify-content: space-between;
+            .company-wrapper {
+                font-family: $main-font;
+                font-size: 1.1rem;
+                font-weight: 500;
+                letter-spacing: 0px;
+                margin-bottom: 4px;
+            }
+            .period-wrapper {
+                display: flex;
+                align-items: center;
+                font-size: 0.8rem;
+                font-family: $text-font;
+                font-weight: 600;
+                margin-bottom: 4px;
+            }
+        }
+        .job-wrapper {
+            font-family: $text-font;
+            font-size: 0.9rem;
+            margin-top: 0;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .description-wrapper {
+            font-family: $text-font;
+            font-size: 0.9rem;
+            margin-top: 6px;
+        }
+    }
+
+    .education-wrapper {
+        h2 {
+            font-family: $main-font;
+            font-size: 1.4rem;
+        }
+        .title-wrapper {
+            font-family: $text-font;
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+        .company-wrapper {
+            font-family: $text-font;
+            font-size: 0.9rem;
+            margin-top: 6px;
+        }
+    }
+}

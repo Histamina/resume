@@ -1,34 +1,27 @@
 import React from 'react';
+import '../assets/rightColumn.scss';
 import { myData } from '../data/myData';
+import ExperienceItem from './ExperienceItem';
+import EducationItem from './EducationItem';
 
 const RightColumn = () => {
-    const { experience, education } = myData;
+    const { description, experience, education } = myData;
     
     return (
         <>
-            <div className="aboutme-wrapper">
-                <h1>ACERCA DE MÍ</h1>
-                <p>{myData.description}</p>
-            </div>
-            <div className="experience-wrapper">
-                <h2>EXPERIENCIA</h2>
-                {experience.map(data => 
-                    <div> 
-                        <p>{data.company}</p> 
-                        <p>{data.period}</p> 
-                        <p>{data.job}</p> 
-                        <p>{data.description}</p> 
-                    </div>
-                )}
-            </div>
-            <div className="education-wrapper">
-                <h2>EDUCATION</h2>
-                {education.map(data => 
-                    <div>
-                        <p>{data.title}</p>
-                        <p>{data.company}</p>
-                    </div>
-                )}
+            <div className="right-wrapper">
+                <div className="aboutme-wrapper">
+                    <h1>ACERCA DE MÍ</h1>
+                    <p>{description}</p>
+                </div>
+                <div className="experience-wrapper">
+                    <h2>EXPERIENCIA</h2>
+                    {experience.map((data, i) => <ExperienceItem key={i} {...data} />)}
+                </div>
+                <div className="education-wrapper">
+                    <h2>EDUCACIÓN</h2>
+                    {education.map((data, i) => <EducationItem key={i} {...data} /> )}
+                </div>
             </div>
         </>
     );
