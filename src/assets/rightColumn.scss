@@ -2,7 +2,7 @@
 
 $main-font: 'Proza Libre', sans-serif;
 $text-font: 'Open Sans', sans-serif;
-
+$color-green: #51e289;
 
 .right-wrapper {
 
@@ -10,6 +10,8 @@ $text-font: 'Open Sans', sans-serif;
         h1 {
             font-family: $main-font;
             font-size: 1.4rem;
+            color: $color-green;
+            text-decoration: underline;
         }
         p {
             font-family: $text-font;
@@ -22,6 +24,8 @@ $text-font: 'Open Sans', sans-serif;
             font-family: $main-font;
             font-size: 1.4rem;
             margin-bottom: 0;
+            color: $color-green;
+            text-decoration: underline;
         }
         .companyPeriod-wrapper {
             display: flex;
@@ -60,6 +64,8 @@ $text-font: 'Open Sans', sans-serif;
         h2 {
             font-family: $main-font;
             font-size: 1.4rem;
+            color: $color-green;
+            text-decoration: underline;
         }
         .title-wrapper {
             font-family: $text-font;

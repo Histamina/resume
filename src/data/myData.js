@@ -40,7 +40,7 @@ export const myData = {
             "company": "Codecademy 2019"
         },
         {
-            "title": "BIOQUIMICA",
+            "title": "BIOQUÍMICA",
             "company": "Universidad de Buenos Aires 2019 - Interrumpida"
         },
         {
