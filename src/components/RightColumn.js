@@ -6,13 +6,13 @@ import EducationItem from './EducationItem';
 
 const RightColumn = () => {
     const { description, experience, education } = myData;
-    
+
     return (
         <>
             <div className="right-wrapper">
                 <div className="aboutme-wrapper">
                     <h1>ACERCA DE MÍ</h1>
-                    <p>{description}</p>
+                    <div className="aboutme-wrapper--description" dangerouslySetInnerHTML={{__html:description}}></div>
                 </div>
                 <div className="experience-wrapper">
                     <h2>EXPERIENCIA</h2>

@@ -4,26 +4,38 @@ export const myData = {
     "age": "28 años",
     "email": "julietaelisa.gomez@gmail.com",
     "phone": "+54 11-3474-3187",
-    "location": "CABA",
-    "description": "me defino blablabla",
+    "location": "CABA - Argentina",
+    "description": "<p> Me defino como una persona <span>responsable</span>, <span>perseverante</span>, con <span>ganas de aprender</span> y capacitarme constantemente en un ambiente laboral dinámico y cooperativo.<br> Como consecuencia de mi formación académica, desarrollé la capacidad de <span>aprender rápido</span> y poseer un <span>espíritu resolutivo</span>. Así es como el área IT me atrapó; en un principio como un hobbie para luego ser de mi total interés al punto de enfocar mi carrera profesional al <span>Desarrollo Web</span>.<br> Considero que ser <span>autodidacta</span> es fundamental; siendo ésta una cualidad útil, disfruto de adquirir conocimientos nuevos y superarme día a día. </p>",
     "experience": [
         {
             "company": "MOREAN",
             "period": "Mar - Oct 2020",
             "job": "Web Developer",
-            "description": "Prácticas con APIs. Salesforce CommerceCloud Developer"
+            "description": "Salesforce CommerceCloud Developer. Creación de APIs para consumo de datos utilizando MongoDB, ExpressJS y NodeJS. Uso de GIT como control de versiones",
+            "references": [
+                {
+                    "name": "Ricardo Cimmino",
+                    "email": "richard@morean.co"
+                }, 
+                {
+                    "name": "Gabriel Vazquez",
+                    "email": "gvazquez@morean.co"
+                }
+            ]
         },
         {
             "company": "CONSULTORA BRAIN NETWORK",
             "period": "2016 - 2017",
             "job": "Telefonista",
-            "description": "Realización de encuestas telefónicas relacionadas con la satisfacción de clientes bancarios"
+            "description": "Realización de encuestas telefónicas relacionadas con la satisfacción de clientes bancarios",
+            "references": ""
         },
         {
             "company": "LABORATORIO MECÁNICO DENTAL",
             "period": "2013 - 2016",
             "job": "Cadete y Asistente",
-            "description": "Distribución de artículos de ortodoncia y recaudación de pagos. Manejo de ingresos y egresos monetarios"
+            "description": "Distribución de artículos de ortodoncia y recaudación de pagos. Manejo de ingresos y egresos monetarios",
+            "references": ""
         }
     ],
     "education": [
