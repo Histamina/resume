@@ -79,23 +79,23 @@ export const myData = {
         },
         {
             "title": "Javascript",
-            "progress": 60
+            "progress": 63
         },
         {
             "title": "React JS",
-            "progress": 55
+            "progress": 57
         },
         {
             "title": "Git",
-            "progress": 60
+            "progress": 50
         },
         {
-            "title": "Mongo DB, Express JS, Node JS",
+            "title": "MERN",
             "progress": 40
         },
         {
             "title": "Firebase",
-            "progress": 35
+            "progress": 30
         }
     ],
     "languages": [

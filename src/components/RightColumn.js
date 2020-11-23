@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/rightColumn.scss';
+import { DiReact } from 'react-icons/di';
 import { myData } from '../data/myData';
 import ExperienceItem from './ExperienceItem';
 import EducationItem from './EducationItem';
@@ -21,6 +22,9 @@ const RightColumn = () => {
                 <div className="education-wrapper">
                     <h2>EDUCACIÓN</h2>
                     {education.map((data, i) => <EducationItem key={i} {...data} /> )}
+                </div>
+                <div className="react-icon--wrapper">
+                    <p>Developed with <DiReact className="react-icon"/></p>
                 </div>
             </div>
         </>
