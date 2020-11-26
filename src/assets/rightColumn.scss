@@ -90,19 +90,4 @@ $color-green: #13C86F;
             margin-top: 6px;
         }
     }
-
-    .react-icon--wrapper {
-        font-family: $main-font;
-        font-size: 0.7rem;
-        p {
-            display: flex;
-            margin-top: 20px;
-            margin-bottom: 0;
-            justify-content: flex-end;
-            align-items: center;
-            .react-icon {
-                font-size: 1.7rem;
-            }
-        }
-    }
 }

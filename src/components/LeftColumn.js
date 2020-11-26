@@ -4,6 +4,7 @@ import profile from '../assets/profile.jpeg';
 import { myData } from '../data/myData';
 import SkillsItem from './SkillsItem';
 import LanguagesItem from './LanguagesItem';
+import { DiReact } from 'react-icons/di';
 import { MdEmail } from 'react-icons/md';
 import { MdPhoneIphone } from 'react-icons/md';
 import { MdLocationOn } from 'react-icons/md';
@@ -33,6 +34,9 @@ const LeftColumn = () => {
                 <div className="language-wrapper">
                     <h2 className="language-wrapper--title">IDIOMAS</h2>
                     {languages.map((data, i)=> <LanguagesItem key={i} {...data} />)}
+                </div>
+                <div className="react-icon--wrapper">
+                    <p>Developed with <DiReact className="react-icon"/></p>
                 </div>
             </div>
         </>

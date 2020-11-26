@@ -133,4 +133,18 @@ $color-green: #13C86F;
             }
         }
     }
+
+    .react-icon--wrapper {
+        font-family: $main-font;
+        font-size: 0.7rem;
+        p {
+            display: flex;
+            margin-top: 0;
+            justify-content: center;
+            align-items: center;
+            .react-icon {
+                font-size: 1.7rem;
+            }
+        }
+    }
 }

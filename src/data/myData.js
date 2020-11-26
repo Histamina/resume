@@ -90,7 +90,7 @@ export const myData = {
             "progress": 50
         },
         {
-            "title": "MERN",
+            "title": "MERN stack",
             "progress": 40
         },
         {
