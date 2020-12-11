@@ -8,9 +8,11 @@ import { DiReact } from 'react-icons/di';
 import { MdEmail } from 'react-icons/md';
 import { MdPhoneIphone } from 'react-icons/md';
 import { MdLocationOn } from 'react-icons/md';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 
 const LeftColumn = () => {
-    const { name, title, age, email, phone, location, skills, languages } = myData;
+    const { name, title, age, email, phone, location, linkedin, github,skills, languages } = myData;
 
     return (
         <>  
@@ -26,6 +28,8 @@ const LeftColumn = () => {
                     <p className="contact-wrapper--email"><MdEmail className="contact-wrapper--icon"/>{email}</p>
                     <p className="contact-wrapper--phone"><MdPhoneIphone className="contact-wrapper--icon"/>{phone}</p>
                     <p className="contact-wrapper--location"><MdLocationOn className="contact-wrapper--icon"/>{location}</p>
+                    <p className="contact-wrapper--linkedin"><FaLinkedin className="contact-wrapper--icon"/>{linkedin}</p>
+                    <p className="contact-wrapper--github"><FaGithub className="contact-wrapper--icon"/>{github}</p>
                 </div>
                 <div className="skills-wrapper">
                     <h2 className="skills-wrapper--title">HABILIDADES</h2>

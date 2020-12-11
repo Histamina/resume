@@ -5,13 +5,15 @@ export const myData = {
     "email": "julietaelisa.gomez@gmail.com",
     "phone": "+54 11-3474-3187",
     "location": "CABA - Argentina",
-    "description": "<p> Me defino como una persona <span>responsable</span>, <span>perseverante</span>, con <span>ganas de aprender</span> y capacitarme constantemente en un ambiente laboral dinámico y cooperativo.<br> Como consecuencia de mi formación académica, desarrollé la capacidad de <span>aprender rápido</span> y poseer un <span>espíritu resolutivo</span>. Así es como el área IT me atrapó; en un principio como un hobbie para luego ser de mi total interés al punto de enfocar mi carrera profesional al <span>Desarrollo Web</span>.<br> Considero que ser <span>autodidacta</span> es fundamental; siendo ésta una cualidad útil, disfruto de adquirir conocimientos nuevos y superarme día a día. </p>",
+    "linkedin": "/in/julieta-gomez-2b8157195",
+    "github": "/Histamina",
+    "description": "<p> Me defino como una persona <span>responsable</span>, <span>perseverante</span>, con <span>ganas de aprender</span> y capacitarme constantemente en un ambiente laboral dinámico y cooperativo.<br> Como consecuencia de mi formación académica, desarrollé la capacidad de <span>aprender rápido</span> y poseer un <span>espíritu resolutivo</span>.<br> Considero que ser <span>autodidacta</span> es fundamental; siendo ésta una cualidad útil, disfruto de adquirir conocimientos nuevos y superarme día a día. </p>",
     "experience": [
         {
             "company": "MOREAN",
             "period": "Mar - Oct 2020",
             "job": "Web Developer",
-            "description": "Salesforce CommerceCloud Developer. Creación de APIs para consumo de datos utilizando MongoDB, ExpressJS y NodeJS. Uso de GIT como control de versiones",
+            "description": "Creación de APIs para consumo de datos utilizando MongoDB, ExpressJS y NodeJS. Uso de GIT como control de versiones. Salesforce CommerceCloud Developer",
             "references": [
                 {
                     "name": "Ricardo Cimmino",
@@ -22,6 +24,13 @@ export const myData = {
                     "email": "gvazquez@morean.co"
                 }
             ]
+        },
+        {
+            "company": "FREELANCE",
+            "period": "2020",
+            "job": "Web Developer",
+            "description": "Desarrollo de sitio web de antigüedades para cliente https://antiguedadesadrian.com/",
+            "references": ""
         },
         {
             "company": "CONSULTORA BRAIN NETWORK",
@@ -91,25 +100,21 @@ export const myData = {
         },
         {
             "title": "MERN stack",
-            "progress": 40
+            "progress": 37
         },
         {
             "title": "Firebase",
-            "progress": 30
+            "progress": 29
         }
     ],
     "languages": [
-        {
+        {   
             "title": "INGLÉS",
-            "reading": 80,
-            "writing": 70,
-            "dialogue": 60
+            "level": "Intermedio - Avanzado"
         },
         {
             "title": "ESPAÑOL",
-            "reading": 100,
-            "writing": 100,
-            "dialogue": 100
+            "level": "Nativo"
         }
     ]
 };

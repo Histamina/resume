@@ -52,12 +52,14 @@ $color-green: #13C86F;
 
     .contact-wrapper {
         margin: 0.6rem auto 0;
+        font-family: $main-font;
+        font-size: 0.9rem;
         &--icon {
             margin-right: 7px;
+            font-size: 1.1rem;
+            color: $color-green;
         }
         &--email {
-            font-family: $main-font;
-            font-size: 0.9rem;
             margin-top: 5px;
         }
     }
@@ -104,32 +106,13 @@ $color-green: #13C86F;
         .language-items {
             &--title {
                 font-family: $text-font;
-                font-size: 0.8rem;
-                margin: 0.3rem auto;
+                font-size: 0.9rem;
+                margin: 0.1rem auto;
+                letter-spacing: 1px;
             }
-            .progress-bar--wrapper {
-                .progress-bar {
-                    display: flex;
-                    flex-direction: row;
-                    margin-bottom: 6px;
-                    &--holder {
-                        display: flex;
-                        margin-left: 1rem;
-                        height: 10px;
-                        background-color: rgba(255, 255, 255, .12);
-                        position: relative;
-                        width: 70%;
-                        .progress-bar--style {
-                            height: 100%;
-                            top: 0;
-                            left: 0;
-                            position: absolute;
-                            background-color: $color-green;
-                            border-right: 1px solid white;
-                            box-sizing: border-box;
-                        }
-                    }
-                }
+            &--level {
+                font-family: $text-font;
+                margin: 0 auto 0.4rem;
             }
         }
     }
